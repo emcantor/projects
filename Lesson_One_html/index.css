@@ -1,0 +1,80 @@
+.search {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    color: blue;
+    margin: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.search #bar {
+    width: 25rem;
+    border-radius: 5px;
+}
+
+.searchbutton {
+    position: fixed;
+    top: 200%;
+    left: 50%;
+    margin: auto;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+.searchbutton input {
+    display: inline-block;
+}
+
+.searchbutton div {
+    display: inline-block;
+}
+
+#logo{
+    width: 300px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+}
+
+#smalllogo {
+    width: 5%;
+    position: relative;
+}
+
+a {
+    font-size: 3rem;
+    margin: 10px;
+}
+
+.menu {
+    display: inline-block;
+    float: right;
+}
+
+.advanced {
+    width: 500px;
+}
+
+.advanced div {
+    width: 100%;
+    margin: 1px;
+    padding: 5px;
+}
+
+.advanced div input {
+    float: right;
+    width: 50%
+}
+
+.advanced #advancedsearch {
+    background-color: #4c8bf5;
+    float: right;
+    color: white;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    margin-top: 10px;
+}
